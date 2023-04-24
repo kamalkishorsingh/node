@@ -1,1 +1,3 @@
+deployment: test
 image: testecho:latest
+test: hi
