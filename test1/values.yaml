@@ -1,0 +1,5 @@
+deployment: test
+image: testecho
+image_tag: latest
+test: hi
+newdata : 1.0
