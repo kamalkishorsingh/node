@@ -21,3 +21,5 @@ jobs:
         VERSION=${BRANCH}-${GIT_SHA::7}
         echo $VERSION
         #for dev
+        oldtag=$(cat ./values.yaml | grep image_tag: | awk '{print $2}')
+        sed -i "s/$oldtag/$newtag/" ./values.yaml
