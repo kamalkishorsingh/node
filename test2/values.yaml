@@ -1,5 +1,5 @@
 deployment: test
 image: testecho
-image_tag: 
+image_tag: testtag
 test: hi
 newdata : 1.0
