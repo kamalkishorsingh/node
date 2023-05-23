@@ -1,6 +1,6 @@
 deployment: test
 image: testecho
-image_tag: $newtag
+image_tag: 1.0.1
 test: hi
 newdata : 1.0
 tag: 1.0.1
